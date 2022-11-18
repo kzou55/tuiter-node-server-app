@@ -9,7 +9,7 @@ const createTuit = (req, res) => {
     newTuit.likes = 0;
     newTuit.liked = false;
     newTuit.dislikes = 0;
-    newTuit.image = "../../images/javascript.png";
+    newTuit.image = "../../images/usericon.png";
     tuits.push(newTuit);
     res.json(newTuit);
 }
